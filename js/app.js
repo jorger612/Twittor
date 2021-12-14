@@ -7,9 +7,9 @@ var swLocation = '/Twittor/sw.js';
 if (navigator.serviceWorker){
     if ( url.includes('localhost') ){
        navigator.serviceWorker.register('/sw.js');
-    }else{
-       navigator.serviceWorker.register( swLocation );
     }
+       navigator.serviceWorker.register( swLocation );
+    
 }
 
 // Referencias de jQuery
